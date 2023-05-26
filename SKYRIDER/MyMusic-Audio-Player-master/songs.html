@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMusic | Songs</title>
+    <link rel="icon" href="./images/01ChCTMYX8njQl9apZ5oyRi-1.png">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel='stylesheet' href='https://cdn.plyr.io/3.6.2/plyr.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- link java script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div id="branding">
+                <h1><span class="name"><a href="index.html">MyMusic</a></span><sub> Audio Player</sub></h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nav1">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="songs.html" id="current">Songs</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="sign_in.html" id="log1">SignIn</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="sign_up.html" id="log2">SignUp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="plwrap" onclick="play1()">
+        <ul id="plList"></ul>
+    </div>
+
+    <div id="audiowrap1" style="visibility: hidden;">
+        <div id="nowPlay1">
+            <span id="npTitle"></span>
+        </div>
+        <div id="audio0">
+            <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
+        </div>
+    </div>
+
+    <div class="columns">
+        <p class="m1">Music by <a href="http://www.mythium.net/">Mythium</a></p>
+        <p class="m2">Download: <a href="https://archive.org/download/mythium/mythium_vbr_mp3.zip">zip</a> / <a
+                href="https://archive.org/download/mythium/mythium_archive.torrent">torrent</a></p>
+    </div>
+    </div>
+    <footer>
+        <p>MyMusic Audio Player, Copyright &copy; 2023</p>
+    </footer>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.8/plyr.min.js'></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

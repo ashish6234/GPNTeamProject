@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+
+.info{
+  margin-top: 30px;
+  font-size: 25px;
+  text-align: center;
+  font-family:  "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: oblique;
+  margin-bottom: 30px;
+}
+
+.highlight{
+  color: chocolate;
+  font-size: 36px;
+}
+
+#inf{
+  color: rgb(128, 20, 20);
+  font-size: 41px;
+}
+
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.column {
+  float: left;
+  margin-top: 1%;
+  margin-left: 11%;
+  width: 33% inherit;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.image {
+  width: 100px;
+  border-radius: 50%;
+  margin: 3% 20% 0 20%;
+}
+
+.card {
+  max-width: 200px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(149, 50, 0, 0.2);
+  margin: 8px;
+  background: linear-gradient(75deg, #FFC3A1, #A75D5D);
+}
+
+.containers {
+  padding: 0 16px;
+}
+
+.title {
+  color: #773030;
+  text-align: center;
+  font-size: 21px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #773030;
+}
+
+@media screen and (max-width:1650px) {
+  .column{
+    margin-left: 9%;
+  }
+  
+}
+
+@media screen and (max-width:1500px) {
+  .column{
+    margin-left: 22%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .column{
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width:950px) {
+  .column{
+    margin-left: 17%;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .column{
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .column {
+    margin-left: 31%;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .column{
+    margin-left: 22%;
+  }
+}

@@ -1,0 +1,190 @@
+form {
+  text-align: center;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid#ddd;
+  border-radius: 9px;
+  box-shadow: 5px 5px 12px #180f0f, 5px 5px 12px rgba(27, 210, 239, 0.839);
+  background: linear-gradient(55deg, #f0997d, #d3756b);
+}
+
+form p {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #000000;
+  box-shadow: 5px 5px 12px #ffc3a1, 5px 5px 12px #d3756b;
+}
+
+input[type="text"],
+input[type="email"] {
+  text-align: center;
+}
+
+textarea {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 5px 5px 12px #d3756b, 5px 5px 12px #ffc3a1;
+  max-width: 80%;
+}
+
+textarea:placeholder-shown {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+button[type="submit"] {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 12px #f0997d, 5px 5px 12px #d3756b;
+  max-width: 80%;
+}
+
+button[type="submit"]:hover {
+  font-size: medium;
+}
+
+/* contact setup
+================================================== */
+#head {
+  font-variant: small-caps;
+  font-size: 19px;
+  text-align: start;
+  font-weight: 700;
+  margin-left: 3%;
+}
+
+#con {
+  margin-bottom: 10%;
+  padding-right: 10%;
+}
+
+#con .cont {
+  margin-left: 9%;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #dd4736;
+}
+
+#con .cont .cont1 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1650px) {
+  details {
+    margin-bottom: 20%;
+  }
+
+  form {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  details {
+    margin-bottom: 20%;
+    margin-left: 10%;
+  }
+
+  form {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  form {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  form {
+    width: 300px;
+    height: 500px;
+  }
+  #head {
+    margin-left: 30%;
+    margin-bottom: 30%;
+  }
+  #con .cont {
+    font-size: 12px;
+    padding-top: 0;
+  }
+
+  #con .cont .cont1 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  form {
+    width: 200px;
+    height: 520px;
+  }
+  input {
+    width: 90%;
+  }
+  #head {
+    margin-left: 30%;
+    margin-bottom: 30%;
+  }
+  #con .cont {
+    font-size: 9px;
+    padding-top: 0;
+  }
+
+  #con .cont .cont1 {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #head {
+    margin-left: 30%;
+    margin-bottom: 30%;
+  }
+  #con .cont {
+    font-size: 9px;
+    padding-top: 0;
+  }
+
+  #con .cont .cont1 {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  #head {
+    margin-left: 10%;
+    margin-bottom: 50%;
+  }
+  #con .cont {
+    font-size: 9px;
+    padding-top: 0;
+  }
+
+  #con .cont .cont1 {
+    font-size: 9px;
+  }
+}

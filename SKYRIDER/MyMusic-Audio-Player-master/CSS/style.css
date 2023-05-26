@@ -1,0 +1,271 @@
+/* Font Family
+================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+/* Global Styles
+================================================== */
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.025rem;
+  line-height: 1.618;
+  padding: 1rem 0;
+  background: linear-gradient(55deg, #F0997D, #FFC3A1);
+}
+
+/* Setup
+================================================== */
+
+.container {
+  position: relative;
+  margin: 10% auto;
+  width: 100px;
+  height: 480px;
+  background: linear-gradient(45deg, #FFC3A1, #A75D5D);
+  border-top: 1px solid #D3756B;
+  border-left: 1px solid #F0997D;
+  border-right: 1px solid #A75D5D;
+  border-bottom: 1px solid #A75D5D;
+  box-shadow: 5px 5px 50px #A75D5D, inset 5px 5px 12px #FFC3A1;
+}
+
+.columns {
+  margin-left: 3%;
+}
+
+/* Typography / Links
+================================================== */
+.m1 {
+  color: #000000;
+  font-size: 18px;
+  font-style: oblique;
+  margin-top: 20px;
+}
+
+.m2 {
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+/* Audio Player Styles
+================================================== */
+#mIcon {
+  margin-left: 40%;
+  margin-bottom: 10%;
+  width: 200px;
+  mix-blend-mode: color-burn;
+}
+
+#audiowrap {
+  margin: 0 auto;
+}
+
+#audiowrap1 {
+  margin: 0 auto;
+  border: 1px inset black;
+  border-radius: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 9%;
+  box-shadow: 2px 2px 5px black, 3px 3px 5px red;
+  background: linear-gradient(75deg, #D3756B, #FFC3A1);
+}
+
+#tracks {
+  font-size: 0;
+  position: relative;
+  text-align: center;
+}
+
+#nowPlay {
+  display: block;
+  font-size: 0;
+}
+
+#nowPlay span {
+  display: inline-block;
+  font-size: 1.05rem;
+  vertical-align: top;
+}
+
+#nowPlay span#npTitle {
+  color: #000000;
+  font-weight: 600;
+  padding: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+#nowPlay1 span#npTitle {
+  color: #000000;
+  font-weight: 500;
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+#plList li {
+  color: #000000;
+  font-weight: 700;
+  cursor: pointer;
+  display: block;
+  margin: 0;
+  padding: 21px 0;
+}
+
+#plList li:hover {
+  background-color: rgba(77, 75, 75, 0.994);
+}
+
+
+#plList li:hover,
+#plList li:active {
+  background-color: #1f1e1e;
+  color: #ffffff;
+}
+
+.plItem {
+  position: relative;
+}
+
+.plTitle {
+  left: 50px;
+  overflow: hidden;
+  position: absolute;
+  right: 65px;
+  text-overflow: ellipsis;
+  top: 0;
+  white-space: nowrap;
+}
+
+.plNum {
+  padding-left: 21px;
+  width: 25px;
+}
+
+.plLength {
+  padding-left: 21px;
+  position: absolute;
+  right: 21px;
+  top: 0;
+}
+
+.plSel,
+.plSel:hover {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff !important;
+  cursor: default !important;
+}
+
+#tracks a {
+  border-radius: 3px;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2.3rem;
+  height: 40px;
+  line-height: 0.2;
+  margin: 0 5px 30px;
+  padding: 12px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+#tracks a:hover,
+#tracks a:active {
+  background-color: rgba(0, 0, 0, 0.674);
+  color: #ffffff;
+}
+
+#tracks a::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* Plyr Overrides
+================================================== */
+
+.plyr--audio .plyr__controls {
+  background: transparent;
+  border: #F0997D;
+  color: #000000;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  padding: 20px 20px 20px 13px;
+  width: 100%;
+}
+
+a.plyr__controls__item.plyr__control:hover,
+.plyr--audio .plyr__controls button:hover,
+.plyr--audio .plyr__controls button.tab-focus:focus,
+.plyr__play-large {
+  background-color: rgb(0, 0, 0);
+}
+
+.plyr__progress--played,
+.plyr__volume--display {
+  color: rgb(0, 0, 0);
+}
+
+.plyr--audio .plyr__progress--buffer,
+.plyr--audio .plyr__volume--display {
+  background-color: rgb(0, 0, 0);
+}
+
+.plyr--audio .plyr__progress--buffer {
+  color: rgb(255, 255, 255);
+}
+
+.plyr__controls .plyr__controls__item.plyr__time {
+  font-size: 14px;
+  margin-left: 7px;
+}
+
+#play {
+  margin: 30px;
+}
+
+/* footer setup
+================================================== */
+
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  width: 100%;
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 21px;
+  text-align: center;
+}
+
+
+/* Media Queries
+================================================== */
+@media screen and (max-width: 1350px) {
+  .container{
+    margin-top: 3%;
+  }
+
+  #nowPlay span#npTitle {
+    margin-left: 41px;
+    text-align: center;
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  #nowPlay span#npTitle {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+}

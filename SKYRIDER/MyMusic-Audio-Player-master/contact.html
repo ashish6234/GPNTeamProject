@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMusic | Contact Us</title>
+    <link rel="icon" href="./images/01ChCTMYX8njQl9apZ5oyRi-1.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- link java script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div id="branding">
+                <h1><span class="name"><a href="index.html">MyMusic</a></span><sub>
+                        Audio Player</sub></h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nav1">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="songs.html">Songs</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html" id="current">Contact</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="sign_in.html" id="log1">SignIn</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="sign_up.html" id="log2">SignUp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <form>
+            <center>
+                <p>For any query,request or complain:</p>
+            </center>
+            <lable for="name">Name</lable>
+            <div>
+                <input type="text" name="myName" placeholder="Enter Your Name" id="name" required>
+            </div>
+            <br>
+            <lable for="email">Email ID</lable>
+            <div>
+                <input type="email" placeholder="Enter Your Email" name="my email" id="email" required>
+            </div><br>
+            <div>
+                Write Your Message<br>
+                <textarea name=" mytext" placeholder="Message" col="45" rows="5" id="message"></textarea>
+            </div>
+            <br>
+            <br>
+            <div>
+                <button type="submit" onclick="submits()">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <div id="head">Contact Us:
+        <div id="con">
+            <p class="cont">
+                <span class="cont1">&#9742: </span><br>
+                +91 937832312,<br>
+                +91 793487537
+            </p>
+            <p class="cont">
+                <span class="cont1">&#9993: </span><br>
+                ak947314@gmail.com <br>
+                ankitramola994@gmail.com
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>MyMusic Audio Player, Copyright &copy; 2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

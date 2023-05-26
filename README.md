@@ -1,7 +1,7 @@
 # GPNTeamProject
 
 # Team 1 - FIRESTORM
--Rudraksh
+- Rudraksh
 
 
 # Team 2 - ICEBREAKER

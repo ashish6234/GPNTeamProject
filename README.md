@@ -6,16 +6,16 @@
 
 # Team 2 - ICEBREAKER
 - Ashish
-- Abhishek Nautankiwala
+- Abhishek
 
 # Team 3 - LIGHTING LEGEND
-- Sumit joshi
+- Sumit
 
 # Team 4 - SHADOWHAWK
 - Sanandan
 
 # Team 5 - SKYRIDER
-- Akansha
+- Akash
 
 # Team 6 - THUNDERBOLT
-- Shaguni Gole
+- Shagun
